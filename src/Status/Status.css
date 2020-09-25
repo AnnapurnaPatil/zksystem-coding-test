@@ -1,0 +1,43 @@
+.ProgressBar {
+    margin: 0 auto;
+    padding: 2em 0 3em;
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProgressBar-step {
+    position: relative;
+    width: 100%;
+}
+
+.ProgressBar-step-before {
+    content: "";
+    height: 5px;
+    background-color: #50963c;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ProgressBar-step-container {
+    content: "";
+    height: 5px;
+    background-color: #ebf0fa;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 4px;
+}
+
+.ProgressBar-step:first-child:before, .ProgressBar-step:first-child:after {
+    display: none;
+}
+
+.ProgressBar-icon {
+    background-color: #9F9FA3;
+    padding: 2px;
+}
