@@ -1,3 +1,4 @@
+![CI](https://github.com/AnnapurnaPatil/zksystem-coding-test/workflows/CI/badge.svg)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 We use bootstrap for CSS components.
