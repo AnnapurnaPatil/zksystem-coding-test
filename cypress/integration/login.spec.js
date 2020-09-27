@@ -19,5 +19,7 @@ context('Login Page', () => {
             .click()
         cy.get('h1')
             .contains('Details Page')
+        // record video completely
+        cy.wait(1000)
     })
 })
